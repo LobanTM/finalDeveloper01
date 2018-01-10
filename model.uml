@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.loban.finalProject.model</OriginalElement>
+  <nodes>
+    <node x="229.4375" y="1019.0">com.loban.finalProject.model.DateEvent</node>
+    <node x="77.24018595041326" y="814.0">com.loban.finalProject.model.Department</node>
+    <node x="288.0" y="168.0">com.loban.finalProject.model.DateStatus</node>
+    <node x="165.62913223140498" y="383.0">com.loban.finalProject.model.Employee</node>
+    <node x="402.24018595041326" y="827.5">com.loban.finalProject.model.Event</node>
+    <node x="263.0" y="0.0">com.loban.finalProject.model.StatusWork</node>
+    <node x="0.0" y="168.0">com.loban.finalProject.model.Position</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.loban.finalProject.model.DateEvent" target="com.loban.finalProject.model.Employee">
+      <point x="53.45454545454544" y="-86.0" />
+      <point x="429.89204545454544" y="979.0" />
+      <point x="391.74018595041326" y="979.0" />
+      <point x="391.74018595041326" y="794.0" />
+      <point x="404.691632231405" y="794.0" />
+      <point x="111.5625" y="180.5" />
+    </edge>
+    <edge source="com.loban.finalProject.model.Employee" target="com.loban.finalProject.model.Position">
+      <point x="-79.6875" y="-180.5" />
+      <point x="213.44163223140498" y="353.0" />
+      <point x="100.5" y="353.0" />
+      <point x="-33.5" y="72.5" />
+    </edge>
+    <edge source="com.loban.finalProject.model.StatusWork" target="com.loban.finalProject.model.DateStatus">
+      <point x="95.66666666666667" y="59.0" />
+      <point x="502.1666666666667" y="143.0" />
+      <point x="485.5" y="143.0" />
+      <point x="78.99999999999999" y="-72.5" />
+    </edge>
+    <edge source="com.loban.finalProject.model.DateEvent" target="com.loban.finalProject.model.Department">
+      <point x="-106.90909090909088" y="-86.0" />
+      <point x="269.5284090909091" y="989.0" />
+      <point x="178.86518595041326" y="989.0" />
+      <point x="-33.875" y="72.5" />
+    </edge>
+    <edge source="com.loban.finalProject.model.DateStatus" target="com.loban.finalProject.model.StatusWork">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="com.loban.finalProject.model.Employee" target="com.loban.finalProject.model.Department">
+      <point x="-15.9375" y="180.5" />
+      <point x="277.191632231405" y="794.0" />
+      <point x="314.36518595041326" y="794.0" />
+      <point x="101.625" y="-72.5" />
+    </edge>
+    <edge source="com.loban.finalProject.model.Employee" target="com.loban.finalProject.model.DateEvent">
+      <point x="15.9375" y="180.5" />
+      <point x="309.066632231405" y="784.0" />
+      <point x="358.74018595041326" y="784.0" />
+      <point x="358.74018595041326" y="999.0" />
+      <point x="349.71022727272725" y="999.0" />
+      <point x="-26.727272727272748" y="-86.0" />
+    </edge>
+    <edge source="com.loban.finalProject.model.Department" target="com.loban.finalProject.model.DateEvent">
+      <point x="101.625" y="72.5" />
+      <point x="314.36518595041326" y="999.0" />
+      <point x="322.98295454545456" y="999.0" />
+      <point x="-53.45454545454544" y="-86.0" />
+    </edge>
+    <edge source="com.loban.finalProject.model.Position" target="com.loban.finalProject.model.Employee">
+      <point x="33.5" y="72.5" />
+      <point x="167.5" y="343.0" />
+      <point x="245.31663223140498" y="343.0" />
+      <point x="-47.8125" y="-180.5" />
+    </edge>
+    <edge source="com.loban.finalProject.model.Employee" target="com.loban.finalProject.model.DateStatus">
+      <point x="47.8125" y="-180.5" />
+      <point x="340.941632231405" y="343.0" />
+      <point x="376.875" y="343.0" />
+      <point x="-29.625" y="72.5" />
+    </edge>
+    <edge source="com.loban.finalProject.model.Department" target="com.loban.finalProject.model.Employee">
+      <point x="-101.625" y="-72.5" />
+      <point x="111.11518595041326" y="784.0" />
+      <point x="181.56663223140498" y="784.0" />
+      <point x="-111.5625" y="180.5" />
+    </edge>
+    <edge source="com.loban.finalProject.model.DateStatus" target="com.loban.finalProject.model.Employee">
+      <point x="88.87499999999999" y="72.5" />
+      <point x="495.375" y="363.0" />
+      <point x="404.691632231405" y="363.0" />
+      <point x="111.5625" y="-180.5" />
+    </edge>
+    <edge source="com.loban.finalProject.model.Event" target="com.loban.finalProject.model.DateEvent">
+      <point x="90.33333333333326" y="59.0" />
+      <point x="628.0735192837465" y="999.0" />
+      <point x="510.0738636363636" y="999.0" />
+      <point x="133.63636363636363" y="-86.0" />
+    </edge>
+    <edge source="com.loban.finalProject.model.DateEvent" target="com.loban.finalProject.model.Event">
+      <point x="106.90909090909088" y="-86.0" />
+      <point x="483.3465909090909" y="989.0" />
+      <point x="537.7401859504132" y="989.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="315.1666666666665" y="543.8333333333333" />
+  <SelectedNodes>
+    <node>com.loban.finalProject.model.StatusWork</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
